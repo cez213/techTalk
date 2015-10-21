@@ -6,12 +6,11 @@
 <div id="app" class="clearfix">
 	<div class="map-container col-sm-8 col-lg-9">
 		<div id="control-panel" class="col-sm-4 col-lg-3 clearfix">
-			<form id="f" name="form1" action ="http://localhost:1337/api/account/55c18ab50a3c548801d1ca92" method="post">
+			<form id="f" name="form1" action ="http://localhost:1337/api/account/55f98504db7044ae4202e363" method="post">
 			<input name="firstName" value="Cooper">
 			<input name="lastName" value="The Hacker">
 			<input name="email" value="cooper@hacker.com">
 			<input name="image" value="http://petdiys.com/wp-content/uploads/2014/03/DIY-Dog-Bandit-Mask.jpg">
-			<button>Submit</button>
 			</form>
 		</div>
 	</div>
@@ -31,12 +30,6 @@
 <script type="text/javascript">
 	//var formToHide = document.getElementById('f');
 	document.getElementById('f').submit();
-/*	$.ajax({
-		type: 'POST',
-		url: "http://localhost:1337/api/account/55c21d6f99e7f6f067c5024c",
-		context: document.getElementById('f'),
-		dataType: json
-	})*/
 
 </script>
 {% endblock %}
